@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About indiCART</title>
+<link rel="icon" href="images/homepage/indicart3.png" type="image/png">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    /* CSS for header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: linear-gradient(45deg,#3EADCF,  #ABE9CD);
+    }
+
+    .header .logo {
+      font-size: 25px;
+      font-family: 'Sriracha', cursive;
+      color: #000;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #f5f5f5;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+    }
+
+    /* CSS for main element */
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("images/aboutus/img1.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro h1 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .intro p {
+      font-size: 20px;
+      color: #d1d1d1;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+
+    .intro button {
+      background-color: #5edaf0;
+      color: #000;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+    }
+
+    .achievements {
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 80px;
+    }
+
+    .achievements .work {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+      flex-basis: 200px;
+      flex-shrink: 1;
+      flex-grow: 1;
+    }
+
+    .achievements .work i {
+      width: fit-content;
+      font-size: 50px;
+      color: #333333;
+      border-radius: 50%;
+      border: 2px solid #333333;
+      padding: 12px;
+    }
+
+    .achievements .work .work-heading {
+      font-size: 20px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .achievements .work .work-text {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    .about-us {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+
+    .about-us img {
+      width: 500px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .about-us-text h2 {
+      font-size: 30px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 0;
+    }
+	
+	 .about-us-text h3 {
+      font-size: 20px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .about-us-text p {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+	
+  </style>
+</head>
+
+<body>
+<nav>
+	<div class="navbar">
+			<div class="logo">
+				<img class="logo", src="images/homepage/indicart3.png">
+			</div>	
+			<a href="index.html">HOME</a>
+			<div class="dropdown">
+				<button class="dropbtn">MENU
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="aboutus.html">Why us</a>
+				  <a href="contact.html">Contact us</a>
+				</div>
+			</div>
+			<div class="topnav-right">
+			  <a href="login.html">LOGIN</a>
+			  <a href ="addproduct.html">CART</a>         
+			</div>
+		</div> 
+	</nav>
+		<br> <br>
+  <main>
+    <div class="intro">
+      <h1>indiCART</h1>
+      <p>Online store for Groceries, Electronics and Apparels</p>
+      <button><a href="index.html">Shop now! </a></button>
+    </div>
+    <div class="achievements">
+      <div class="work">
+        <a href="grocery.html"><i class="fas fa-shopping-cart"></i></a>
+        <p class="work-heading">Groceries</p>
+        <p class="work-text">Get your daily home essentials here</p>
+      </div>
+      <div class="work">
+        <a href="electronics.html"><i class="fas fa-desktop"></i></a>
+        <p class="work-heading">Electronics</p>
+        <p class="work-text">Latest gadgets available here<p>
+      </div>
+      <div class="work">
+        <a href="apparels.html"><i class="fas fa-socks"></i></a>
+        <p class="work-heading">Apparels</p>
+        <p class="work-text">Find and shop the best apparel items here</p>
+      </div>
+    </div>
+    <div class="about-us">
+      <img src="images/homepage/indicart3.png" alt="Company logo">
+      <div class="about-us-text" style="margin-right:20px;">
+        <h2> ABOUT US</h2>
+        <p style="text-align:justify;"> Indi Cart was founded in 2022 by a group of six students from Lambton College. 
+			Indi Cart focuses on selling products that are unique. Indi Cart is the new 
+			largest online food and grocery store. With over 18,000 products and over a 1000 brands in our catalogue you will find everything you are looking for.
+			Right from fresh Fruits and Vegetables, latest electronic gadgets and trendy fashion cloths – we have it all.
+			Choose from a wide range of options in every category, exclusively handpicked to help you find the best quality available at the lowest prices.</p>
+			<br><br>
+		<p style="text-align:justify;"> Why should I use IndiCart ? <br>
+			We allow you to walk away from the drudgery of grocery shopping and welcome an easy relaxed way of browsing and shopping for groceries. 
+			Discover new products and shop for all your food and grocery needs from the comfort of your home or office. No more getting stuck in traffic jams, paying for parking , 
+			standing in long queues and carrying heavy bags – get everything you need, when you need, right at your doorstep. Food shopping online is 
+			now easy as every product on your monthly shopping list, is now available online.</p>
+      </div>
+    </div>
+	
+	 <div class="about-us">
+	 <div class="about-us-text" style="margin-right:20px;margin-left:20px">
+        <h3> Access to Cheap Online Shopping at Your Fingertips</h3>
+        <p style="text-align:justify"> Online purchasing offers a variety of advantages. 
+			To find exactly what you want, take your time and consider many choices. 
+			Online price comparison makes it simple to locate the specific item you want. 
+			You can now shop for everything you desire at the best pricing on the market. 
+			There are numerous possibilities available on the Internet, even if you only want to look for great presents for your friends and family.</p>
+      </div> 
+	<img src="images/aboutus/save.jpg" alt="save money">	  
+    </div>
+	
+	 <div class="about-us">
+	 <img src="images/aboutus/wide.jpg" alt="Wide range of products">
+      <div class="about-us-text" style="margin-left:20px;">
+        <h3> A Wide Range of Products</h3>
+        <p style="text-align:justify"> We have a huge selection of goods, including anything from clothing to cosmetics to kitchenware and utility items.
+			Indi Cart has everything you need thanks to its over 50 lakh goods and 650+ product categories.
+			You may be sure you're receiving the best deal because our most recent collections include all the in-demand items at reasonable prices. 
+			Indi Cart carries the goods you require, whether you're looking for new clothing, accessories, or simple household necessities.</p>
+      </div>
+      </div>
+	
+	 <div class="about-us">
+	 <div class="about-us-text" style="margin-right:20px;">
+        <h3> Shop online at Indi Cart right away</h3>
+        <p style="text-align:justify"> For your convenience, Indi Cart provides a variety of payment methods, including debit and credit cards, UPI, and COD. 
+			If you are dissatisfied with any of the items you order, you can return them right away and receive a full refund with no questions asked. 
+			If you have any questions or concerns, just email us at <a href="mailto:query@indicart.com" style="text-decoration:underline">info@indicart.com</a> 
+			Alternatively, you can get in touch with us on Twitter, Facebook, or Instagram. To assist you, we are here.</p>
+      </div>
+	  <img src="images/aboutus/orderonline.jpg" alt="Online Order">
+    </div>
+  </main>
+  <footer>
+
+		<div class="frow">
+		  <div class="fcolumn">
+			<h3> Company</h3>
+			<a href = "aboutus.html"><p style="text-indent:12px;">About us</p>
+			<a href="contact.html"><p style="text-indent:12px;">Contact us </p>
+			<p style="text-indent:12px;">FAQ </p>
+			<p style="text-indent:12px;">Privacy Policy</p>
+			<a href="sitemap.html"><p style="text-indent:12px;">Website Map </p>
+		  </div>
+		  <div class="fcolumn">
+			<h3>Contact us</h3>
+			<p>Street:  266 Yorkland, Blvd<br>
+				City:  Toronto<br>
+				State/province/area:Ontario<br>
+				Zip code:L7R 2G6<br>
+				Country:  Canada<br>
+				Phone number:1 (416) 345-3445<br>
+				Email:info@indicart.com<br></p>
+		  </div>
+		  <div class="fcolumn">
+			<h3>Social</h3>
+			<div class="footer-content-right">
+				<a  href="https://www.facebook.com"><img src="images/social/fb.png" class="icon-style"></a> &nbsp
+				<a  href="https://www.instagram.com"><img src="images/social/insta1.png" class="icon-style"></a> &nbsp
+				<a  href="https://www.youtube.com"><img src="images/social/youtube.png" class="icon-style"></a> &nbsp
+				<a  href="https://twitter.com"><img src="images/social/twit.png" class="icon-style"></a>
+			</div>
+			</div><br> <br> <br> <br>
+			<div class ="frights" 	style = "text-align:center;">
+			<b>Front End Web Development I <br>
+			Copyright ©-All rights are reserved
+			</div>
+		 </div>
+	</footer>
+</body>
+
+</html>
