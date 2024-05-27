@@ -14,7 +14,7 @@ To get started with this website, follow these simple steps:
 
 1. **Clone the Repository:**
 ```
-git clone https://github.com/your-username/e-commerce-website.git
+git clone https://github.com/Iramfatema/IndiCart.git
 ```
 
 2. **Navigate to the Project Directory:**
